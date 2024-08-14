@@ -105,6 +105,4 @@
     return marks>90
   })
   console.log(ans)
-
-  
 }
