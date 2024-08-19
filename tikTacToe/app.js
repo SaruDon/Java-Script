@@ -22,9 +22,11 @@ boxes.forEach((box) => {
     console.log("box clicked");
     // box.innerText = "X";
     if (turn0 === true) {
+      box.style.color = "black";
       box.innerHTML = "X";
       turn0 = false;
     } else {
+      box.style.color = "red";
       box.innerHTML = "O";
       turn0 = true;
     }
