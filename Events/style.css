@@ -1,0 +1,17 @@
+#box {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    color: antiquewhite;
+    border: 5px darkblue black;
+}
+
+.dark{
+    background-color: black;
+    color: antiquewhite;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
