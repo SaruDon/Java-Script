@@ -6,6 +6,7 @@ let msg = document.querySelector("#msg");
 
 let turn0 = true;
 
+
 let winningPatterns = [
   [0, 1, 2], // Top row
   [3, 4, 5], // Middle row
@@ -58,7 +59,7 @@ const restGame = () => {
   enableBtn();
   msgConatiner.classList.add("hide");
 };
-
+// 
 const checkWinner = () => {
   for (patterns of winningPatterns) {
     // console.log(
